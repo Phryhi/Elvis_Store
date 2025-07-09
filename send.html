@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeMeElvis.com</title>
+</head>
+<body>
+    <header>
+        <h1>MakeMeElvis.com</h1>
+        <h3>Apenas para administradores!</h3>
+        <h4>Envie emails automaticamente para todos os seus clientes!</h4>
+    </header>
+    <form action="sendemail.php" method="post">
+        <label for="assunto">Assunto: </label><br>
+        <input type="text" name="assunto"><br>
+        <label for="conteudo">Conteúdo: </label><br>
+        <textarea rows="6" cols="40" name="conteudo"></textarea><br>
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
+</body>
+</html>
